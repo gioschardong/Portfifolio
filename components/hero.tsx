@@ -108,12 +108,12 @@ export function Hero() {
           </motion.div>
 
           <motion.div
-            className="hidden lg:flex justify-center items-center"
+            className="flex justify-center items-center order-first lg:order-last"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.4, duration: 0.8, ease: "easeOut" }}
           >
-            <div className="relative w-full max-w-lg aspect-square">
+            <div className="relative w-full max-w-sm lg:max-w-lg aspect-square">
               <img
                 src="/eu.jpg"
                 alt="Desenvolvedor trabalhando"
