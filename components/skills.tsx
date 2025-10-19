@@ -16,26 +16,26 @@ export function Skills() {
     },
     {
       title: "Backend",
-      skills: [{ name: "Node.js" }, { name: "Express" }, { name: "PostgreSQL" }, { name: "MongoDB" }],
+      skills: [{ name: "C#" }, { name: "Java" }, { name: ".NET" }, { name: "Python" }],
     },
     {
       title: "DevOps & Tools",
-      skills: [{ name: "Git" }, { name: "Docker" }, { name: "AWS" }, { name: "CI/CD" }],
+      skills: [{ name: "Git" }, { name: "Azure DevOps" }, { name: "AWS" }, { name: "CI/CD" }],
     },
   ]
 
   const otherSkills = [
     "REST APIs",
-    "GraphQL",
     "Responsive Design",
-    "Testing (Jest, Cypress)",
-    "Agile/Scrum",
-    "UI/UX Design",
+    "Testing (unit & integration)",
+    "Agile/Scrum Methodologies",
+    "UI/UX Basics",
     "Performance Optimization",
-    "SEO",
-    "Accessibility",
-    "Microservices",
-  ]
+    "Version Control (Git, GitHub/GitLab)",
+    "SQL & Database Design",
+    "Microservices & API Integration",
+    "Collaboration with International Teams",
+  ];
 
   return (
     <section id="skills" className="py-20 md:py-32" ref={ref}>
@@ -69,7 +69,7 @@ export function Skills() {
                     {category.skills.map((skill, skillIndex) => (
                       <motion.div
                         key={skillIndex}
-                        className="px-4 py-2 bg-muted rounded-lg text-sm font-medium hover:bg-secondary/10 hover:text-secondary transition-colors"
+                        className="px-4 py-2 bg-muted rounded-lg text-sm font-medium hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer"
                         initial={{ opacity: 0, x: -20 }}
                         animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
                         transition={{ duration: 0.3, delay: 0.3 + index * 0.1 + skillIndex * 0.05 }}
@@ -95,7 +95,7 @@ export function Skills() {
               {otherSkills.map((skill, index) => (
                 <motion.span
                   key={index}
-                  className="px-4 py-2 bg-muted text-sm font-medium rounded-full hover:bg-secondary/10 hover:text-secondary transition-colors"
+                  className="px-4 py-2 bg-muted text-sm font-medium rounded-full hover:bg-secondary/10 hover:text-primary transition-colors cursor-pointer"
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
                   transition={{ duration: 0.3, delay: 0.6 + index * 0.03 }}

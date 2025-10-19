@@ -13,37 +13,37 @@ export function Projects() {
 
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "Plataforma completa de e-commerce com carrinho, pagamentos e painel administrativo.",
-      image: "/modern-ecommerce-dashboard.png",
+      title: "Skyline Drones",
+      description: "Plataforma para mapeamento de rotas de drones, com reconhecimento de imagens para resgate de pessoas em casos de desastres.",
+      image: "/skyline-drones.png",
       tags: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
       github: "https://github.com",
       demo: "https://demo.com",
     },
     {
-      title: "Task Management App",
-      description: "Aplicativo de gerenciamento de tarefas com colaboração em tempo real e notificações.",
-      image: "/task-management-interface.png",
-      tags: ["React", "Node.js", "Socket.io", "MongoDB"],
-      github: "https://github.com",
-      demo: "https://demo.com",
+      title: "Password Creator",
+      description: "Aplicativo para geração de senhas seguras e personalizadas.",
+      image: "/password-creator.png",
+      tags: ["React", "Node.js", "Express", "MongoDB"],
+      github: "https://github.com/gioschardong/Gerador-de-Senhas?tab=readme-ov-file",
+      demo: "https://gioschardong.github.io/Gerador-de-Senhas/",
     },
-    {
-      title: "Analytics Dashboard",
-      description: "Dashboard interativo para visualização de dados com gráficos e relatórios customizáveis.",
-      image: "/analytics-dashboard-charts.png",
-      tags: ["React", "D3.js", "Express", "Redis"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-    },
-    {
-      title: "Social Media API",
-      description: "API RESTful escalável para rede social com autenticação, posts e sistema de likes.",
-      image: "/api-documentation-interface.png",
-      tags: ["Node.js", "GraphQL", "PostgreSQL", "Docker"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-    },
+    // {
+    //   title: "Analytics Dashboard",
+    //   description: "Dashboard interativo para visualização de dados com gráficos e relatórios customizáveis.",
+    //   image: "/analytics-dashboard-charts.png",
+    //   tags: ["React", "D3.js", "Express", "Redis"],
+    //   github: "https://github.com",
+    //   demo: "https://demo.com",
+    // },
+    // {
+    //   title: "Social Media API",
+    //   description: "API RESTful escalável para rede social com autenticação, posts e sistema de likes.",
+    //   image: "/api-documentation-interface.png",
+    //   tags: ["Node.js", "GraphQL", "PostgreSQL", "Docker"],
+    //   github: "https://github.com",
+    //   demo: "https://demo.com",
+    // },
   ]
 
   return (
