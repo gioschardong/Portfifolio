@@ -5,27 +5,29 @@ import { Code2, Rocket, Users } from "lucide-react"
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
+import { Server, Workflow, Laptop } from "lucide-react";
 
 export function About() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const highlights = [
-    {
-      icon: Code2,
-      title: "Código Limpo",
-      description: "Escrevo código mantível, testável e seguindo as boas práticas.",
-    },
-    {
-      icon: Rocket,
-      title: "Performance",
-      description: "Otimizo aplicações para carregamento rápido e experiência fluida.",
-    },
-    {
-      icon: Users,
-      title: "Colaboração",
-      description: "Trabalho bem em equipe e comunico ideias técnicas de forma clara.",
-    },
+  {
+    icon: Server,
+    title: "Backend Sólido",
+    description: "Desenvolvo APIs e sistemas robustos com C#, .NET e SQL, focando em estabilidade e escalabilidade.",
+  },
+  {
+    icon: Workflow,
+    title: "Integrações Eficientes",
+    description: "Conecto sistemas e automatizo processos com segurança e desempenho.",
+  },
+  {
+    icon: Laptop,
+    title: "Soluções Completas",
+    description: "Atuo também no frontend com React e Next.js, entregando produtos de ponta a ponta.",
+  },
+
   ]
 
   return (
@@ -50,12 +52,12 @@ export function About() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <p>
-                Sou um desenvolvedor apaixonado por criar soluções digitais que fazem a diferença. Com mais de 5 anos de
-                experiência, trabalhei em projetos de diversos tamanhos e complexidades.
+                Sou um desenvolvedor apaixonado por criar soluções digitais que fazem a diferença. Com mais de 4 anos de experiência, 
+                trabalhei em projetos de diferentes tamanhos e complexidades, sempre buscando unir qualidade técnica e resultados.
               </p>
               <p>
-                Minha jornada começou com curiosidade sobre como as coisas funcionam na web, e hoje transformo essa
-                curiosidade em produtos que impactam milhares de usuários.
+                Sou estudante de Ciência da Computação na PUCRS, e tenho experiência trabalhando com times internacionais diariamente na Dell Technologies, 
+                o que aprimorou minha comunicação, colaboração e visão global de desenvolvimento de software, onde sigo aprofundando meus conhecimentos em engenharia de software, arquitetura de sistemas e boas práticas de desenvolvimento.
               </p>
             </motion.div>
             <motion.div
@@ -65,12 +67,14 @@ export function About() {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <p>
-                Acredito que bom código é aquele que resolve problemas reais de forma elegante. Estou sempre aprendendo
-                novas tecnologias e compartilhando conhecimento com a comunidade.
+                Tenho foco em backend, com especialização em C#, .NET, Java, SQL e Python. 
+                No frontend, atuo com React e Next.js, o que me permite entregar soluções completas, do servidor à interface do usuário.
+                Possuo experiência em  desenvolvimento web, 
+                integrações com APIs, automação de processos e tratamento de dados, desenvolvendo aplicações estáveis e bem estruturadas.
               </p>
               <p>
-                Quando não estou programando, você pode me encontrar contribuindo para projetos open source, escrevendo
-                artigos técnicos ou explorando novas ferramentas de desenvolvimento.
+                Acredito que um bom código é aquele que resolve problemas reais de forma elegante.
+                 Estou constantemente aprendendo novas tecnologias e aprimorando práticas de desenvolvimento.
               </p>
             </motion.div>
           </div>
@@ -91,7 +95,7 @@ export function About() {
                       whileHover={{ rotate: 5, scale: 1.05 }}
                       transition={{ duration: 0.2 }}
                     >
-                      <item.icon className="w-6 h-6 text-secondary" />
+                      <item.icon className="w-6 h-6 text-white" />
                     </motion.div>
                     <h3 className="text-xl font-semibold">{item.title}</h3>
                     <p className="text-muted-foreground leading-relaxed">{item.description}</p>

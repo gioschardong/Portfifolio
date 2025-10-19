@@ -20,7 +20,7 @@ export function Footer() {
                 href="https://github.com/gioschardong"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 hover:text-secondary transition-colors"
+                className="p-2 hover:text-primary transition-colors"
                 aria-label="GitHub"
               >
                 <Github size={20} />
@@ -29,7 +29,7 @@ export function Footer() {
                 href="https://www.linkedin.com/in/giovanni-schardong//"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 hover:text-secondary transition-colors"
+                className="p-2 hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
@@ -45,7 +45,7 @@ export function Footer() {
               </a> */}
               <a
                 href="mailto:giovanni.schardong@gmail.com"
-                className="p-2 hover:text-secondary transition-colors"
+                className="p-2 hover:text-primary transition-colors"
                 aria-label="Email"
               >
                 <Mail size={20} />

@@ -34,7 +34,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-lg md:text-xl font-bold hover:text-secondary transition-colors"
+            className="text-lg md:text-xl font-bold hover:text-primary transition-colors"
           >
             {"<Dev />"}
           </button>
@@ -43,25 +43,25 @@ export function Header() {
           <nav className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection("about")}
-              className="text-sm font-medium hover:text-secondary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("experience")}
-              className="text-sm font-medium hover:text-secondary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors"
             >
               Experiência
             </button>
             <button
               onClick={() => scrollToSection("projects")}
-              className="text-sm font-medium hover:text-secondary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors"
             >
               Projetos
             </button>
             <button
               onClick={() => scrollToSection("skills")}
-              className="text-sm font-medium hover:text-secondary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors"
             >
               Habilidades
             </button>

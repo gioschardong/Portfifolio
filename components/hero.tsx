@@ -17,7 +17,7 @@ export function Hero() {
           >
             <div className="space-y-4">
               <motion.p
-                className="text-lg sm:text-xl text-secondary font-medium"
+                className="text-lg sm:text-xl text-primary font-medium"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
@@ -48,7 +48,7 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.6 }}
             >
-              Especializado em React, Next.js e Node.js. Transformo ideias em produtos digitais de alta qualidade com
+              Especializado em C#, .NET, SQL, React e Next.js. Transformo ideias em produtos digitais de alta qualidade com
               foco em performance, acessibilidade e experiência do usuário.
             </motion.p>
 
@@ -77,7 +77,7 @@ export function Hero() {
                 href="https://github.com/gioschardong"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 hover:text-secondary transition-colors"
+                className="p-2 hover:text-primary transition-colors"
                 aria-label="GitHub"
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.95 }}
@@ -88,7 +88,7 @@ export function Hero() {
                 href="https://linkedin.com/in/giovanni-schardong"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 hover:text-secondary transition-colors"
+                className="p-2 hover:text-primary transition-colors"
                 aria-label="LinkedIn"
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.95 }}
@@ -97,7 +97,7 @@ export function Hero() {
               </motion.a>
               <motion.a
                 href="mailto:giovanni.schardong@gmail.com"
-                className="p-2 hover:text-secondary transition-colors"
+                className="p-2 hover:text-primary transition-colors"
                 aria-label="Email"
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.95 }}

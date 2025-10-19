@@ -16,7 +16,7 @@ const experiences = [
     company: "Dell Technologies",
     position: "Desenvolvedor Full Stack",
     period: "Mai. 2023 - Set. 2024",
-    description: "Desenvolvimento de soluções de uso interno com next.js e Node.js. Colaboração em equipes ágeis.",
+    description: "Desenvolvimento de soluções de uso interno com C#, .NET, Next.js e Node.js. Colaboração diária com times internacionais em ambientes ágeis, aprimorando comunicação e práticas de desenvolvimento global.",
     current: false,
   },
   {
